@@ -5,8 +5,8 @@ var sidez= Document.getElementById('z').value();
 
 var x= parseInt(sidex);
 var y= parseInt(sidey);
-var z=parseInt(sidez);
-if x===y && y===z && x===z;
+var z= parseInt(sidez);
+if (x===y && y===z && x===z){
 alert("equiateral triangle");
 }else if (x===y || y===z || x===z){
 alert("isosceles triangle");
