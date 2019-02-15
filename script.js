@@ -1,7 +1,7 @@
 function sides(){
-var sidex= .getElementById('x').value();
-var sidey= .getElementById('y').value();
-var sidez= .getElementById('z').value();
+var sidex= Document.getElementById('x').value();
+var sidey= Document.getElementById('y').value();
+var sidez= Document.getElementById('z').value();
 
 var x= parseInt(sidex);
 var y= parseInt(sidey);
