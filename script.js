@@ -8,4 +8,8 @@ var y= parseInt(sidey);
 var z=parseInt(sidez);
 if x===y && y===z && x===z;
 alert("equiateral triangle");
+}else if (x===y || y===z || x===z){
+alert("isosceles triangle");
+}else if (x!=y || y!=z || x!=z && x+y>z){
+alert("scalene triangle");
 }
