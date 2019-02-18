@@ -3,8 +3,10 @@
 }
 
 body {
-  text-align: left;
+  text-align: centre;
   background-color: pink;
+  margin-left: 300px;
+
 }
 
 img {
@@ -54,4 +56,7 @@ h4{
   font-size: 200%;
   justify-content: center;
   margin-bottom:10px;
+}
+#result{
+  font-size: 50px;
 }

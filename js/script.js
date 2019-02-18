@@ -3,24 +3,30 @@ function sides() {
   var sidey = parseInt(document.getElementById('y').value);
   var sidez = parseInt(document.getElementById('z').value);
 
+  var result = document.querySelector("#result");
+
+
+  result.innerHTML = "";
   if (sidex + sidey > sidez && sidey + sidez > sidex && sidez + sidex > sidey) {
     if (sidex == sidey && sidey == sidez && sidex == sidez) {
-      alert("equilateral triangle");
-      // return "equilateral triangle";
-    }
-    // else if (x===y || y===z || x===z){
-    //   alert("isoscele triangle");
-    //   return "isoscele triangle";
-    //   }
-    else if (sidex != sidey && sidey != sidez && sidex != sidez) {
-      alert("scalene triangle");
+      result.innerHTML = "equilateral triangle";
+
+    } else if (sidex != sidey && sidey != sidez && sidex != sidez) {
+      result.innerHTML = "scalene triangle";
       // return "scalen triangle";
+      console.log(result);
+
     } else {
-      alert("this is an isosceles");
+      result.innerHTML = "isosceles triangle";
+
       // return "this is an isosceles";
+      console.log(result);
+
     }
   } else {
-    alert("Not a triangle");
+    // console.log("oops");
+    result.innerHTML = "not a triangle";
+
     // return "Not a triangle"
   }
 }

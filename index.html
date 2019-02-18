@@ -9,23 +9,31 @@
 
 </head>
 
-<body>
+<bod style="align:center;">
   <h1>TRIANGLE TRACKER</h1>
   <form id="put">
-    <fieldset>
-      <legend>Enter values:</legend>
-      Value x:<br>
-      <input type="number" placeholder="Enter a number" id="x" value="x">
-      <br>
-      value y:<br>
-      <input type="number" placeholder="Enter a number" id="y" value="y">
-      <br>
-      value z:<br>
-      <input type="number" placeholder="Enter a number" id="z" value="z">
-      <br><br>
-      <button class="button" type="submit" id="check" onclick="sides()"><span>Submit</span></button>
-      <input type="reset" value="Reset">
-    </fieldset>
+    <div style="width:100%">
+      <div>
+        <fieldset style="width:50%">
+          <legend>Enter values:</legend>
+          Value x:<br>
+          <input type="number" placeholder="Enter a number" id="x">
+          <br>
+          value y:<br>
+          <input type="number" placeholder="Enter a number" id="y">
+          <br>
+          value z:<br>
+          <input type="number" placeholder="Enter a number" id="z">
+          <br><br>
+          <button class="button" type="button" id="check" onclick="sides()"><span>Submit</span></button>
+          <input type="reset" value="Reset">
+        </fieldset>
+      </div>
+      <div>
+        <p id="result"></p>
+      </div>
+
+    </div>
   </form>
   <h2>The different types of a triangle</h2>
   <h4>EQUILATERAL TRIANGLE</h4>
@@ -34,14 +42,15 @@
     <li>Has 3 sides</li>
     <li>Are the only regular polygon with three sides, and appear in a variety of contexts</li>
   </ul>
-  <img src="images.png" width=240px height=240px>
+  <img src="css/images.png" width=240px height=240px>
   <h4>ISOSCELES TRIANGLE</h4>
   <p>The figure has two dimensions equal and the other side different from the rest.</p>
-  <img src="twosides.png" width=240px height=240px>
+  <img src="css/twosides.png" width=240px height=240px>
   <h4>SCALENE TRIANGLE</h4>
   <p>All sides of the figure are not equal.</p>
-  <img src="scalene.png" width=240px height=240px>
-  <script src="script.js"></script>
-</body>
+  <img src="css/scalene.png" width=240px height=240px>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  </body>
 
 </html>
