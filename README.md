@@ -2,6 +2,8 @@
 By Mwangi Nyambura.
 \###~Description~
 This is a site where individuals can be able to differentiate types of triangles using their dimensions.
+\##Known Bugs
+none
 \###~Technologies used~
 I used:HTML
        CSS
@@ -36,5 +38,5 @@ In our code we will have input fields based on length, width ad height so as to 
 
 \###LICENSE
 
-MIT
+_MIT_
 copyright (c) 2019
