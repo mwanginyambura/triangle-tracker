@@ -9,7 +9,7 @@ I used:HTML
 \###SETUP INSTRUCTIONS
 A user should enter dimensions of a triangle in the input fields provided then click on the submit button to find out the type of triangle you've created.
 \###Contact
-mwanginyambura19@gmmail.com
+mwanginyambura19@gmail.com
 
 \##~BDD~
 
