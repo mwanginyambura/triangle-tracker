@@ -5,9 +5,9 @@ This is a site where individuals can be able to differentiate types of triangles
 \##Known Bugs
 none
 \###~Technologies used~
-I used:HTML
-       CSS
-       JAVASCRIPT
+I used:HTML.
+       CSS.
+       JAVASCRIPT.
 \###SETUP INSTRUCTIONS
 A user should enter dimensions of a triangle in the input fields provided then click on the submit button to find out the type of triangle you've created.
 \###Contact
