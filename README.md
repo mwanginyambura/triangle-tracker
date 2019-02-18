@@ -1,8 +1,8 @@
-\##TRIANGLE-TRACKER
+\##~TRIANGLE-TRACKER~
 By Mwangi Nyambura.
-\###Description
+\###~Description~
 This is a site where individuals can be able to differentiate types of triangles using their dimensions.
-\###Technologies used
+\###~Technologies used~
 I used:HTML
        CSS
        JAVASCRIPT
@@ -11,7 +11,7 @@ A user should enter dimensions of a triangle in the input fields provided then c
 \###Contact
 mwanginyambura19@gmmail.com
 
-\##BDD
+\##~BDD~
 
 \#What is Triangle TRACKER
 This is an application in identifying a particular triangle based on its value dimensions.
